@@ -1,0 +1,4 @@
+[21-Jun-2022 11:33:56 UTC] PHP Warning:  file_put_contents(/tmp/.1655811236): failed to open stream: Permission denied in /home/biohelix/public_html/js/tiny_mce/plugins/imagemanager/plugins/Favorites/pack.php on line 6
+[21-Jun-2022 11:33:56 UTC] PHP Warning:  unlink(/tmp/.1655811236): Operation not permitted in /home/biohelix/public_html/js/tiny_mce/plugins/imagemanager/plugins/Favorites/pack.php on line 8
+[27-Jun-2022 12:10:55 UTC] PHP Warning:  file_put_contents(/tmp/.1656331855): failed to open stream: Permission denied in /home/biohelix/public_html/js/tiny_mce/plugins/imagemanager/plugins/Favorites/pack.php on line 6
+[27-Jun-2022 12:10:55 UTC] PHP Warning:  unlink(/tmp/.1656331855): Operation not permitted in /home/biohelix/public_html/js/tiny_mce/plugins/imagemanager/plugins/Favorites/pack.php on line 8

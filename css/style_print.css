@@ -1,0 +1,4 @@
+@media print {
+.titulo				{ font-family:Calibri; font-size:30px; color:#00B5CC; margin:0 0 10px 0; text-indent:0px; border-bottom:1px dashed #00B5CC; }
+table				{ font-family:Calibri; font-size:13px; color:#AAA; }
+}

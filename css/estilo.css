@@ -1,0 +1,64 @@
+/* Elementos */
+body    			{ background: url(../imagens/back.jpg) repeat-x #FFF; margin:0; font-family:Calibri; font-size:15px; color:#6D6E70;}
+a					{ border:none; color:#25A4BC; text-decoration:none;}
+a:hover				{ border:none; color:#CCC; text-decoration:none;}
+input				{ outline:none;}
+p					{ text-indent:25px;}
+
+/* Padrão */
+.logo				{ margin: 30px 0 30px 0;}
+.topo				{ width:960px; margin:0 auto; margin-bottom:10px;}
+.wrapper			{ width:960px; margin:0 auto; margin-top:90px; margin-bottom:40px; text-align:justify; }
+.banner				{ border:none;}
+.titulo				{ font-family:Calibri; font-size:30px; color:#00B5CC; margin:0 0 10px 0; text-indent:0px;}
+.subtitulo			{ font-family:Calibri; font-size:16px; color:#085491; margin:0 0 10px 25px; text-indent:0px;}
+.acesse				{ font-family:Calibri; font-size:13px; color:#CCC; text-align:left;}
+.verde			{ color:#00B5CC;}
+.azul			{ color:#085491;}
+.saiba			{ font-size:16px; font-weight:bold;}
+.tel			{ font-size: 18px;}
+/* Home */
+.wrapper .home td	{ text-align: justify; width:33%; font-family:Calibri; font-size:13px; color:#808284; vertical-align:top; padding:0 15px;}
+.wrapper .home 
+.txt-home			{ margin:0; line-height:20px;}
+
+.wrapper .empresa td{ text-align: justify; font-family:Calibri; font-size:13px; color:#808284; vertical-align:top; padding:0 15px;}
+td.center			{ text-align:center; border-right:1px solid #DDD; border-left:1px solid #DDD;}
+td.right			{ width:40%; text-align:center; border-left:1px solid #DDD;}
+td.right img		{ border:1px solid #000; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+
+.wrapper .exames td		{   text-align: justify; width:50%; font-family:Calibri; font-size:13px; color:#808284; vertical-align:top; padding:10px 15px;}
+.wrapper .exames td.right	{border-left:1px solid #EEE;}
+.wrapper .exames td.bottom { border-bottom:1px solid #EFEFEF; }
+hr						{border:0; border-bottom:1px dashed #EFEFEF; }
+
+/* Login / Senha - Exames */
+input#login, #senha		{ -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; border:1px solid #CCC; width:100px;}
+input#entrar			{ padding:5px; background:#25A4BC; border:none; color:#FFF; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+input#entrar:hover		{ background:#2E78B3;}
+
+/* Formulario */
+input.form		{ border: 1px solid #666; height:25px; width:350px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; background-color:#FFF;}
+textarea.form	{ border: 1px solid #666; height:100px; width:350px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#666; padding:5px; background-color:#FFF;outline:none;}
+.but_form		{ border: none; height:30px; width:100px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#FFF; padding:5px; background-color:#2E78B3;}
+.but_form:hover	{ background-color:#085491;}
+
+/* Rodapé */
+div#rodape			{ width:100%; clear:both; margin:0 auto; text-align:center; padding:20px 0;  background:#25A4BC;}
+.rodape				{ width:940px; margin:0 auto; font-family: Calibri; font-size:14px; color:#FFF;  text-align:center; vertical-align:middle;}
+.link_rodape		{ color:#FFF; font-size:16px;}
+.barra				{ border-right:1px dashed #CCC; border-left:1px dashed #CCC;}
+
+div.bloco_e					{ width:46%; float:left; padding:10px; font-family:Calibri; font-size:13px; color:#808284;}
+div.bloco_d					{ width:46%; float:right; padding:10px; font-family:Calibri; font-size:13px; color:#808284;}
+h2.trigger 					{padding: 0 0 0 0px;margin: 0 0 0 0;line-height: 30px;width:100%;font-weight: normal;}
+h2.trigger a 				{text-decoration: none;display: block; padding-right:0px; text-align:left; 	background: none; }
+.trigger 					{text-decoration: none;display: block;line-height: 30px; padding-right:10px;  text-align:left;background: none; }
+h2.trigger a:hover 			{ color:#016F54;}
+.toggle_container 			{ margin: 0 0 5px;	padding: 0;	border-top: 1px solid #d6d6d6; border-bottom: 1px solid #d6d6d6; overflow: hidden; width: 100%; clear: both; display:none;}
+.toggle_container .block 	{ padding: 15px 0;}
+.toggle_container .block p 	{ padding: 5px 0; margin: 5px 0;}
+
+@media screen and (max-width: 900px){ 
+div#rodape 			{ width:960px; clear:both; margin:0 auto; text-align:center; padding:20px 0;  background:#25A4BC;}
+ }
